@@ -1,0 +1,29 @@
+/*  Шрифты */
+@mixin mixin-caption-first ($ff, $fw, $fs, $lh, $ls) {
+    font-family: $ff;
+    font-weight: $fw;
+    font-size: $fs;
+    line-height: $lh;
+    letter-spacing: $ls; 
+}
+
+
+
+@mixin mixin-caption-second ($ff, $fw, $fs, $lh, $ls) {
+    
+    font-family: $ff;
+    font-weight: $fw;
+    font-size: $fs;
+    line-height: $lh;
+    letter-spacing: $ls; 
+}
+
+@mixin mixin-caption-third ($ff, $fw, $fs, $lh, $ls) {
+
+    font-family: $ff;
+    font-weight: $fw;
+    font-size: $fs;
+    line-height: $lh;
+    letter-spacing: $ls; 
+
+}
