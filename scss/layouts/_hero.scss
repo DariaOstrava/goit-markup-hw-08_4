@@ -1,95 +1,71 @@
-/* Секция Решения */
+// .section.hero {
+//   text-align: center;
+//   padding-top: 118px;
+//   padding-bottom: 118px;
+//   height: 400px;
+//   margin-left: auto;
+//   margin-right: auto;
+//   background-image: linear-gradient(
+//       to right,
+//       rgba(47, 48, 58, 0.4),
+//       rgba(47, 48, 58, 0.4)
+//     ),
+//     url("../images/homework-three/bg-main.jpg");
 
-.hero-backgraund {
-   
+//   background-size: cover;
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-color: var(--background-hero-color);
+//   margin-left: auto;
+//   margin-right: auto;
 
-    @media screen  and (min-width: 479px) {
-        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-            url('https://github.com/DariaGood/goit-markup-hw-04/blob/main/img/backgraund.jpg?raw=true');
-            background-repeat: no-repeat;
-            background-color: #2F303A;
-            background-size: contain;
-            background-position: center;
-          }
-    
-        @media screen  and (min-width: 768px) and (max-width: 1199px) {
-            background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-            url('https://github.com/DariaGood/goit-markup-hw-04/blob/main/img/backgraund.jpg?raw=true');
-            background-repeat: no-repeat;
-            background-color: #2F303A;
-            background-size: contain;
-            background-position: center;
-            }
-    
-        @media screen  and (min-width: 1200px) {
-            display: flex;
-            margin: 0 auto;
-            max-width: 1600px;
-            background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-            url('https://github.com/DariaGood/goit-markup-hw-04/blob/main/img/backgraund.jpg?raw=true');
-            background-repeat: no-repeat;
-            background-color: #2F303A;
-            background-size: contain;
-            background-position: center;
-                }
+//   @media screen and (min-width: 1200px) {
+//     text-align: center;
+//     padding-top: 200px;
+//     padding-bottom: 200px;
+//     max-width: 1600px;
+//     height: 600px;
 
-    }
+//     background-image: linear-gradient(
+//         to right,
+//         rgba(47, 48, 58, 0.4),
+//         rgba(47, 48, 58, 0.4)
+//       ),
+//       url("../images/hero.jpg");
+//   }
 
-.hero {
-       
+//   @media screen and (min-width: 768px) {
+//     min-width: 768px;
 
-        @media screen  and (min-width: 479px) {
-            min-width: 479px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            
-            padding: 118px 60px 198px 60px;
-            margin: 0px;
-              }
-        
-            @media screen  and (min-width: 768px) and (max-width: 1199px) {
-               
-                }
-        
-            @media screen  and (min-width: 1200px) {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                
-                padding: 118px 60px 198px 60px;
-                margin: 0px auto;
-                    }
+//     background-image: linear-gradient(
+//         to right,
+//         rgba(47, 48, 58, 0.4),
+//         rgba(47, 48, 58, 0.4)
+//       ),
+//       url("../images/header-img-tab1x.jpg");
+//   }
+// }
 
-            
-}
+// .container.hero {
+//   width: 696px;
+// }
 
+// .hero-caption {
+//   margin-top: 0;
+//   margin-bottom: 30px;
 
-.hero__button {
-    margin: 30px auto 0px auto;
-    padding: 10px 32px;
+//   color: var(--hero-caption-color);
+//   font-weight: 900;
+//   font-size: 26px;
+//   line-height: 1.62;
+//   text-align: center;
+//   letter-spacing: 0.06em;
+//   text-transform: uppercase;
 
-    min-width: 200px;
-
-    color: var(--white);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0.03em;
-
-    border-radius: 4px;
-
-    transition-property: box-shadow;
-
-    &:hover,
-    &:focus  {
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    }
-}
-
-
-
-
-
+//   @media screen and (min-width: 1200px) {
+//     font-size: 44px;
+//     line-height: 1.36;
+//     text-transform: uppercase;
+//     letter-spacing: 0.06em;
+//   }
+// }
