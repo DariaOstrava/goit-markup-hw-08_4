@@ -75,7 +75,14 @@
       margin-bottom: 30px;
     }
   }
-  .our-team__about {
+
+  .our-team__name-position {
+    margin-bottom: 10px;
+    margin-top: 0;
+  }
+  
+
+  .our-team__post {
     color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.19;
@@ -86,7 +93,7 @@
       margin-bottom: 16px;
     }
   }
-  .socials {
+  .our-team__about{
     padding-top: 30px;
     padding-right: 32px;
     padding-bottom: 30px;
@@ -116,6 +123,14 @@
       height: 260px;
     }
   }
+  
+  .our-team__about{
+    padding-top: 30px;
+   padding-right: 32px;
+   padding-bottom: 30px;
+   padding-left: 32px;
+   }
+
   .our-team__list {
  
    // @media screen and (max-width: 1200px)
