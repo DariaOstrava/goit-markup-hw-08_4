@@ -14,11 +14,13 @@
     }
   }
 
-  .header--border {
+ 
+
+  .header__border {
     border-bottom-style:solid;
     border-width: 1px;
-    border-color: #ECECEC;
-    padding: 0;
+    border-color: #757575;
+    
   }
 
   .footer & {
@@ -107,12 +109,7 @@
   }
 }
 
-header__contacts-item {
-  margin-left: 30px;
-  &:first-child {
-    margin-left: 0px;
-  }
-}
+
 
 .header__contacts-link {
   display: flex;

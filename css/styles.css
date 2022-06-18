@@ -1052,22 +1052,22 @@ textarea {
   padding-bottom: 94px;
 }
 
-.filtrs {
+.cards-navigation {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
-.gallery {
+.cards-set {
   display: flex;
   flex-wrap: wrap;
 }
-.filtrs__item {
+.cards-navigation__item {
   margin-right: 8px;
 }
-.filtrs__item:last-child {
+.cards-navigation__item:last-child {
   margin-right: 0;
 }
-.gallery__item {
+.cards-set__item {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
@@ -1076,14 +1076,14 @@ textarea {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.gallery__item:nth-child(3n) {
+.cards-set__item:nth-child(3n) {
   margin-right: 0px;
 }
-.gallery__item:nth-last-child(-n + 3) {
+.cards-set__item:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
 
-.filtrs__btn {
+.cards-navigation__btn {
   display: inline-block;
   border: 1px solid transparent;
   border-radius: 4px;
@@ -1105,15 +1105,15 @@ textarea {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.filtrs__btn:hover,
-.filtrs__btn:focus {
+.cards-navigation__btn:hover,
+.cards-navigation__btn:focus {
   color: var(--hero-caption-color);
   background-color: var(--accent-color);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
-.filtrs__current {
+.cards-navigation__current {
   display: inline-block;
   border: 1px solid transparent;
   border-radius: 4px;
@@ -1131,7 +1131,7 @@ textarea {
   letter-spacing: 0.03em;
 }
 
-.gallery__box {
+.cards-set__box {
   display: inline-block;
   text-decoration: none;
 
@@ -1139,24 +1139,24 @@ textarea {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.gallery__box:hover,
-.gallery__box:focus {
+.cards-set__box:hover,
+.cards-set__box:focus {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
     0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
-.gallery__blok {
+.cards-set__blok {
   position: relative;
   overflow: hidden;
 }
-.gallery__text {
+.cards-set__text {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.56;
   letter-spacing: 0.03em;
 }
 
-.gallery__card {
+.cards-set__card {
   position: absolute;
   left: 0;
   top: 0;
@@ -1175,12 +1175,12 @@ textarea {
   transform: translateY(101%);
 }
 
-.gallery__box:hover .gallery__card,
-.gallery__box:focus .gallery__card {
+.cards-set__box:hover .cards-set__card,
+.cards-set__box:focus .cards-set__card {
   transform: translateY(0);
 }
 
-.gallery__title {
+.cards-set__title {
   color: var(--title-text-color);
   font-family: "Roboto";
   font-style: normal;
@@ -1190,7 +1190,7 @@ textarea {
   letter-spacing: 0.06em;
   text-decoration: none;
 }
-.gallery__title .text {
+.cards-set__title .text {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -1200,14 +1200,14 @@ textarea {
   color: var(--primary-text-color);
 }
 
-.gallery__name {
+.cards-set__name {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
   text-decoration: none;
 }
-.gallery__description {
+.cards-set__description {
   padding: 20px 24px;
   border-bottom: 1px solid var(--text-card-color);
   border-right: 1px solid var(--text-card-color);

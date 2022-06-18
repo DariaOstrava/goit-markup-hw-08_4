@@ -49,32 +49,42 @@
     }
 }
 
-.button-close {
+.modal__bth-clossing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0px;
+
     position: absolute;
     top: 8px;
     right: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    cursor: pointer;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    margin: 0;
     width: 30px;
     height: 30px;
 
-    color: #000;
-    background-color: var(--hero-caption-color);
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 50%;
-    cursor: pointer;
-    transition-property: background-color;
+
+}
+
+
+.modal__icon-clossing {
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+    fill: #000000;
+
+    transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-    &:hover,
-    &:focus {
-        color: var(--accent-color);
-    }
+}
+
+.modal__bth-clossing:hover .modal__icon-clossing {
+    fill:#2196F3
 }
 
 .modal-form__button-submit {
@@ -139,12 +149,12 @@
     fill: var(--hero-caption-color);
 }
 
-.filtrs__btn {
+.cards-navigation__btn {
     display: inline-block;
     border: 1px solid transparent;
     border-radius: 4px;
     padding: 6px 22px;
-    min-width: 103px;
+ 
 
     color: var(--title-text-color);
     background-color: var(--background-team-color);
@@ -169,23 +179,7 @@
     }
 }
 
-.filtrs__current {
-    display: inline-block;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    padding: 6px 22px;
-    min-width: 73px;
 
-    color: var(--background-body-color);
-    background-color: var(--accent-color);
-    cursor: pointer;
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.63;
-    text-align: center;
-    letter-spacing: 0.03em;
-}
 
  .button-menu {
      display: inline-flex;
@@ -207,32 +201,7 @@
  .button-menu.is-open .header__button-i-icon-cross {
      display: none;
  }
-// .menu-toggle {
-//     min-height: 40px;
-//     min-width: 40px;
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
 
-//     margin: 0;
-//     padding: 0;
-//     background-color: transparent;
-//     cursor: pointer;
-//     border: none;
-//     border-radius: 50%;
-//     outline: none;
-// }
-
-// @media (min-width: 768px) {
-//     .menu-toggle {
-//         display: none;
-//     }
-// }
-
-// .menu-toggle:hover,
-// .menu-toggle:focus {
-//     background-color: rgba(0, 0, 0, 0.1);
-// }
 .btn {
     padding: 0;
     margin: 0;
@@ -262,3 +231,4 @@
         height: 50px;
     }
 }
+

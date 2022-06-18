@@ -17,120 +17,122 @@
 <body>
  <!------------------------------- Header -------------------------------->
 
-  <header class="header header--border">
-    <div class="container">
-      <a class="header__logo link logo logo__header-position" href="./index.html" lang="en">Web<span class="header__logo--studio">Studio</span></a>
-  
-      <nav class="header__navigation">
-        <ul class="header__navigation-list list">
-          <li class="header__navigation-item">
-            <a class="header__navigation-link link" href="./index.html">Студия</a>
-          </li>
-          <li class="header__navigation-item">
-            <a class="header__navigation-link link header__navigation-link--active" href="./portfolio.html">Портфолио</a>
-          </li>
-          <li class="header__navigation-item">
-            <a class="header__navigation-link link" href="">Контакты</a>
-          </li>
-        </ul>
-      </nav>
-  
-      <ul class="header__contacts">
-        <li class="header__contacts-item">
-          <a class="header__contacts-link link" href="mailto:info@devstudio.com">
-            <svg class="header__contacts--icon"  width="16px" height="12px">
-              <use href="./img/symbol-defs.svg#mail"></use>
-            </svg>
-            info@devstudio.com</a>
+ <header class="header">
+  <div class="container">
+    <a class="header__logo  logo logo__header-position" href="./index.html" lang="en">Web<span class="header__logo--studio">Studio</span></a>
+
+    <nav class="header__navigation">
+      <ul class="header__navigation-list list">
+        <li class="header__navigation-item">
+          <a class="header__navigation-link link" href="./index.html">Студия</a>
         </li>
-        <li class="header__contacts-item">
-          <a class="header__contacts-link link" href="tel:+380961111111">
-            <svg class="header__contacts-icon" width="10px" height="16px">
-              <use href="./img/symbol-defs.svg#smartphone"></use>
-            </svg>
-            +38 096 111 11 11</a>
+        <li class="header__navigation-item">
+          <a class="header__navigation-link link header__navigation-link--active" href="./portfolio.html">Портфолио</a>
+        </li>
+        <li class="header__navigation-item">
+          <a class="header__navigation-link link" href="">Контакты</a>
         </li>
       </ul>
-  
-      <button class="header__button-openning is-open js-open-menu" type="button" aria-expanded="false"
-        aria-controls="header__menu">
-        <svg class="header__button-icon" width="40" height="40" aria-label="Переключатель мобильного меню">
-          <use class="header__button-icon--menu" href="./img/symbol-defs.svg#icon-menu"></use>
-        </svg>
-      </button>
-    </div>
-  </header>
-  <div class="mobile-menu js-menu-container" id="mobile-menu">
-    <button class="menu-button--close is-open js-close-menu" type="button" aria-expanded="false"
-      aria-controls="mobile-menu">
+    </nav>
+
+    <ul class="header__contacts">
+      <li class="header__contacts-item">
+        <a class="header__contacts-link link" href="mailto:info@devstudio.com">
+          <svg class="header__contacts--icon"  width="16px" height="12px">
+            <use href="./img/symbol-defs.svg#mail"></use>
+          </svg>
+          info@devstudio.com</a>
+      </li>
+      <li class="header__contacts-item">
+        <a class="header__contacts-link link" href="tel:+380961111111">
+          <svg class="header__contacts-icon" width="10px" height="16px">
+            <use href="./img/symbol-defs.svg#smartphone"></use>
+          </svg>
+          +38 096 111 11 11</a>
+      </li>
+    </ul>
+
+    <button class="header__button-openning is-open js-open-menu" type="button" aria-expanded="false"
+      aria-controls="header__menu">
       <svg class="header__button-icon" width="40" height="40" aria-label="Переключатель мобильного меню">
-        <use class="icon-cross" href="./img/symbol-defs.svg#icon-close_menu"></use>
+        <use class="header__button-icon--menu" href="./img/symbol-defs.svg#icon-menu"></use>
       </svg>
     </button>
-    <ul class="header__menu-navigation">
-      <li class="header__menu-navigation--item">
-        <a class="header__menu-navigation--link link" href="./index.html">Студия</a>
-      </li>
-      <li class="header__menu-navigation--item">
-        <a class="header__menu-navigation--link link header__navigation-link--active" href="./portfolio.html">Портфолио</a>
-      </li>
-      <li class="header__menu-navigation--item">
-        <a class="header__menu-navigation--link link" href="">Контакты</a>
-      </li>
-    </ul>
-    <ul class="mobile-menu__contacts">
-      <li class="mobile-menu__contacts--item">
-        <a class="mobile-menu__contacts--tel link" href="tel:+380961111111">+38 096 111 11 11</a>
-      </li>
-      <li class="mobile-menu__contacts--item">
-        <a class="mobile-menu__contacts--email link" href="malito:info@devstudio.com">info@devstudio.com</a>
-      </li>
-    </ul>
-    <ul class="mobile-menu__socialss">
-      <li class="mobile-menu__socialss--item">
-        <a class="mobile-menu__socialss--link link" href="">Instagram</a>
-      </li>
-      <li class="mobile-menu__socialss--item">
-        <a class="mobile-menu__socialss--link link" href="">Twitter</a>
-      </li>
-      <li class="mobile-menu__socialss--item">
-        <a class="mobile-menu__socialss--link link" href="">Facebook</a>
-      </li>
-      <li class="mobile-menu__socialss--item">
-        <a class="mobile-menu__socialss--link link" href="">LinkedIn</a>
-      </li>
-    </ul>
   </div>
-  <!----- Grid -------->
+</header>
+<div class="mobile-menu js-menu-container" id="mobile-menu">
+  <button class="menu-button--close is-open js-close-menu" type="button" aria-expanded="false"
+    aria-controls="mobile-menu">
+    <svg class="header__button-icon" width="40" height="40" aria-label="Переключатель мобильного меню">
+      <use class="icon-cross" href="./img/symbol-defs.svg#icon-menu-close"></use>
+    </svg>
+  </button>
+  <ul class="header__menu-navigation">
+    <li class="header__menu-navigation--item">
+      <a class="header__menu-navigation--link link" href="./index.html">Студия</a>
+    </li>
+    <li class="header__menu-navigation--item">
+      <a class="header__menu-navigation--link link header__navigation-link--active" href="./portfolio.html">Портфолио</a>
+    </li>
+    <li class="header__menu-navigation--item">
+      <a class="header__menu-navigation--link link" href="">Контакты</a>
+    </li>
+  </ul>
+  <ul class="mobile-menu__contacts">
+    <li class="mobile-menu__contacts--item">
+      <a class="mobile-menu__contacts--tel link" href="tel:+380961111111">+38 096 111 11 11</a>
+    </li>
+    <li class="mobile-menu__contacts--item">
+      <a class="mobile-menu__contacts--email link" href="malito:info@devstudio.com">info@devstudio.com</a>
+    </li>
+  </ul>
+  <ul class="mobile-menu__socials">
+    <li class="mobile-menu__socials--item">
+      <a class="mobile-menu__socials--link link" href="">Instagram</a>
+    </li>
+    <li class="mobile-menu__socials--item">
+      <a class="mobile-menu__socials--link link" href="">Twitter</a>
+    </li>
+    <li class="mobile-menu__socials--item">
+      <a class="mobile-menu__socials--link link" href="">Facebook</a>
+    </li>
+    <li class="mobile-menu__socials--item">
+      <a class="mobile-menu__socials--link link" href="">LinkedIn</a>
+    </li>
+  </ul>
+</div>
+
+  <!---------------------------- Grid ----------------------------->
+
   <main>
     <section class="portfolio">
       <div class="container portfolio-container">
         <h1 class="visually-hidden">Наши работы</h1>
 
-        <ul class="filtrs list">
-          <li class="filtrs__item">
-            <button type="button" class="filtrs__btn filtrs__current">
+        <ul class="cards-navigation list">
+          <li class="cards-navigation__item">
+            <button type="button" class="cards-navigation__btn">
               Все
             </button>
           </li>
-          <li class="filtrs__item">
-            <button type="button" class="filtrs__btn">Веб-сайты</button>
+          <li class="cards-navigation__item">
+            <button type="button" class="cards-navigation__btn">Веб-сайты</button>
           </li>
-          <li class="filtrs__item">
-            <button type="button" class="filtrs__btn">Приложения</button>
+          <li class="cards-navigation__item">
+            <button type="button" class="cards-navigation__btn">Приложения</button>
           </li>
-          <li class="filtrs__item">
-            <button type="button" class="filtrs__btn">Дизайн</button>
+          <li class="cards-navigation__item">
+            <button type="button" class="cards-navigation__btn">Дизайн</button>
           </li>
-          <li class="filtrs__item">
-            <button type="button" class="filtrs__btn">Маркетинг</button>
+          <li class="cards-navigation__item">
+            <button type="button" class="cards-navigation__btn">Маркетинг</button>
           </li>
         </ul>
 
-        <ul class="gallery list">
-          <li class="gallery__item">
-            <a class="gallery__box" href="">
-              <div class="gallery__blok">
+        <ul class="cards-set list">
+          <li class="cards-set__item">
+            <a class="cards-set__box" href="">
+              <div class="cards-set__blok">
                 <picture>
                   <source
                     media="(min-width: 1200px)"
@@ -163,8 +165,8 @@
                     loading="lazy"
                   />
                 </picture>
-                <div class="gallery__card">
-                  <p class="gallery__text">
+                <div class="cards-set__card">
+                  <p class="cards-set__text">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю
                     получить исчерпывающие сведения о компании или частном
@@ -172,15 +174,15 @@
                   </p>
                 </div>
               </div>
-              <div class="gallery__description">
-                <h2 class="gallery__title">Технокряк</h2>
-                <p class="gallery__name">Веб-сайт</p>
+              <div class="cards-set__description">
+                <h2 class="cards-set__title">Технокряк</h2>
+                <p class="cards-set__name">Веб-сайт</p>
               </div>
             </a>
           </li>
-          <li class="gallery__item">
-            <a class="gallery__box" href="">
-              <div class="gallery__blok">
+          <li class="cards-set__item">
+            <a class="cards-set__box" href="">
+              <div class="cards-set__blok">
                 <picture>
                   <source
                     media="(min-width: 1200px)"
@@ -213,8 +215,8 @@
                     loading="lazy"
                   />
                 </picture>
-                <div class="gallery__card">
-                  <p class="gallery__text">
+                <div class="cards-set__card">
+                  <p class="cards-set__text">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю
                     получить исчерпывающие сведения о компании или частном
@@ -222,17 +224,17 @@
                   </p>
                 </div>
               </div>
-              <div class="gallery__description">
-                <h2 class="gallery__title">
+              <div class="cards-set__description">
+                <h2 class="cards-set__title">
                   Постер <span lang="en">Orlean vs Golden Star</span>
                 </h2>
-                <p class="gallery__name">Дизайн</p>
+                <p class="cards-set__name">Дизайн</p>
               </div>
             </a>
           </li>
-          <li class="gallery__item">
-            <a class="gallery__box" href="">
-              <div class="gallery__blok">
+          <li class="cards-set__item">
+            <a class="cards-set__box" href="">
+              <div class="cards-set__blok">
                 <picture>
                   <source
                     media="(min-width: 1200px)"
@@ -265,8 +267,8 @@
                     loading="lazy"
                   />
                 </picture>
-                <div class="gallery__card">
-                  <p class="gallery__text">
+                <div class="cards-set__card">
+                  <p class="cards-set__text">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю
                     получить исчерпывающие сведения о компании или частном
@@ -274,18 +276,18 @@
                   </p>
                 </div>
               </div>
-              <div class="gallery__description">
-                <h2 class="gallery__title">
+              <div class="cards-set__description">
+                <h2 class="cards-set__title">
                   Ресторан <span lang="en">Seafood</span>
                 </h2>
-                <p class="gallery__name">Приложение</p>
+                <p class="cards-set__name">Приложение</p>
               </div>
             </a>
           </li>
 
-          <li class="gallery__item">
-            <a class="gallery__box" href="">
-              <div class="gallery__blok">
+          <li class="cards-set__item">
+            <a class="cards-set__box" href="">
+              <div class="cards-set__blok">
                 <picture>
                   <source
                     media="(min-width: 1200px)"
@@ -318,8 +320,8 @@
                     loading="lazy"
                   />
                 </picture>
-                <div class="gallery__card">
-                  <p class="gallery__text">
+                <div class="cards-set__card">
+                  <p class="cards-set__text">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю
                     получить исчерпывающие сведения о компании или частном
@@ -327,17 +329,17 @@
                   </p>
                 </div>
               </div>
-              <div class="gallery__description">
-                <h2 class="gallery__title">
+              <div class="cards-set__description">
+                <h2 class="cards-set__title">
                   Проект <span lang="en">Prime</span>
                 </h2>
-                <p class="gallery__name">Маркетинг</p>
+                <p class="cards-set__name">Маркетинг</p>
               </div>
             </a>
           </li>
-          <li class="gallery__item">
-            <a class="gallery__box" href="">
-              <div class="gallery__blok">
+          <li class="cards-set__item">
+            <a class="cards-set__box" href="">
+              <div class="cards-set__blok">
                 <picture>
                   <source
                     media="(min-width: 1200px)"
@@ -370,8 +372,8 @@
                     loading="lazy"
                   />
                 </picture>
-                <div class="gallery__card">
-                  <p class="gallery__text">
+                <div class="cards-set__card">
+                  <p class="cards-set__text">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю
                     получить исчерпывающие сведения о компании или частном
@@ -379,17 +381,17 @@
                   </p>
                 </div>
               </div>
-              <div class="gallery__description">
-                <h2 class="gallery__title">
+              <div class="cards-set__description">
+                <h2 class="cards-set__title">
                   Проект <span lang="en">Boxes</span>
                 </h2>
                 <p class="text-box">Приложение</p>
               </div>
             </a>
           </li>
-          <li class="gallery__item">
-            <a class="gallery__box" href="">
-              <div class="gallery__blok">
+          <li class="cards-set__item">
+            <a class="cards-set__box" href="">
+              <div class="cards-set__blok">
                 <picture>
                   <source
                     media="(min-width: 1200px)"
@@ -422,8 +424,8 @@
                     loading="lazy"
                   />
                 </picture>
-                <div class="gallery__card">
-                  <p class="gallery__text">
+                <div class="cards-set__card">
+                  <p class="cards-set__text">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю
                     получить исчерпывающие сведения о компании или частном
@@ -431,17 +433,17 @@
                   </p>
                 </div>
               </div>
-              <div class="gallery__description">
-                <h2 class="gallery__title" lang="en">
+              <div class="cards-set__description">
+                <h2 class="cards-set__title" lang="en">
                   Inspiration has no Borders
                 </h2>
-                <p class="gallery__name">Веб-сайт</p>
+                <p class="cards-set__name">Веб-сайт</p>
               </div>
             </a>
           </li>
-          <li class="gallery__item">
-            <a class="gallery__box" href="">
-              <div class="gallery__blok">
+          <li class="cards-set__item">
+            <a class="cards-set__box" href="">
+              <div class="cards-set__blok">
                 <picture>
                   <source
                     media="(min-width: 1200px)"
@@ -474,8 +476,8 @@
                     loading="lazy"
                   />
                 </picture>
-                <div class="gallery__card">
-                  <p class="gallery__text">
+                <div class="cards-set__card">
+                  <p class="cards-set__text">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю
                     получить исчерпывающие сведения о компании или частном
@@ -483,17 +485,17 @@
                   </p>
                 </div>
               </div>
-              <div class="gallery__description">
-                <h2 class="gallery__title">
+              <div class="cards-set__description">
+                <h2 class="cards-set__title">
                   Издание <span lang="en">Limited Edition</span>
                 </h2>
-                <p class="gallery__name">Дизайн</p>
+                <p class="cards-set__name">Дизайн</p>
               </div>
             </a>
           </li>
-          <li class="gallery__item">
-            <a class="gallery__box" href="">
-              <div class="gallery__blok">
+          <li class="cards-set__item">
+            <a class="cards-set__box" href="">
+              <div class="cards-set__blok">
                 <picture>
                   <source
                     media="(min-width: 1200px)"
@@ -526,8 +528,8 @@
                     loading="lazy"
                   />
                 </picture>
-                <div class="gallery__card">
-                  <p class="gallery__text">
+                <div class="cards-set__card">
+                  <p class="cards-set__text">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю
                     получить исчерпывающие сведения о компании или частном
@@ -535,17 +537,17 @@
                   </p>
                 </div>
               </div>
-              <div class="gallery__description">
-                <h2 class="gallery__title">
+              <div class="cards-set__description">
+                <h2 class="cards-set__title">
                   Проект <span lang="en">LAB</span>
                 </h2>
-                <p class="gallery__name">Маркетинг</p>
+                <p class="cards-set__name">Маркетинг</p>
               </div>
             </a>
           </li>
-          <li class="gallery__item">
-            <a class="gallery__box" href="">
-              <div class="gallery__blok">
+          <li class="cards-set__item">
+            <a class="cards-set__box" href="">
+              <div class="cards-set__blok">
                 <picture>
                   <source
                     media="(min-width: 1200px)"
@@ -578,8 +580,8 @@
                     loading="lazy"
                   />
                 </picture>
-                <div class="gallery__card">
-                  <p class="gallery__text">
+                <div class="cards-set__card">
+                  <p class="cards-set__text">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю
                     получить исчерпывающие сведения о компании или частном
@@ -587,9 +589,9 @@
                   </p>
                 </div>
               </div>
-              <div class="gallery__description">
-                <h2 class="gallery__title" lang="en">Growing Business</h2>
-                <p class="gallery__name">Приложение</p>
+              <div class="cards-set__description">
+                <h2 class="cards-set__title" lang="en">Growing Business</h2>
+                <p class="cards-set__name">Приложение</p>
               </div>
             </a>
           </li>

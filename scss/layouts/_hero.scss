@@ -2,7 +2,7 @@
    
 
     @media screen  and (min-width: 479px) {
-        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
+            background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
             background-repeat: no-repeat;
             background-color: #2F303A;
             background-size: contain;
@@ -35,6 +35,7 @@
     }
 
 .hero {
+    position: relative;
        
         @media screen  and (min-width: 479px) {
             min-width: 479px;
@@ -43,13 +44,14 @@
             align-items: center;
             justify-content: center;
             
-            padding: 0px 60px 198px 60px;
+            padding: 0px 60px 0px 60px;
             margin: 0px auto;
-              }
+            
+            }
         
             @media screen  and (min-width: 768px) and (max-width: 1199px) {
-                padding: 0px 60px 198px 60px;
-                }
+                padding: 0px 60px 0px 60px;
+            }
         
             @media screen  and (min-width: 1200px) {
                 display: flex;
@@ -59,19 +61,18 @@
                 
                 padding: 0px 60px 0px 60px;
                 margin: 0px auto;
-                    }
+            }
 
             
 }
 
 
 .hero__button {
-    margin: 30px auto 0px auto;
-    padding: 10px 32px;
-
+    position: absolute;
+    
     min-width: 200px;
 
-    color: var(--white);
+    color: var(--accent-color);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -85,5 +86,56 @@
     &:focus  {
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     }
-}
 
+    @media screen  and (min-width: 479px) {
+        top:232px;
+        left:140px;
+        padding: 10px 32px;
+        
+          }
+    
+        @media screen  and (min-width: 768px) and (max-width: 1199px) {
+        left:284px;
+        top:232px;
+        }
+    
+        @media screen  and (min-width: 1200px) {
+        left:490px;
+        top:350px; 
+        }
+    }
+
+
+.hero__caption-first {
+    
+    position: absolute;
+    max-width: 360px;
+    margin: 0 auto;
+    font-size: 26px;
+    line-height: 42px;
+
+    @media screen  and (min-width: 479px) {
+        top:118px;
+        left:60px;
+        font-size: 26px;
+        line-height: 42px;
+    }
+
+    @media screen  and (min-width: 768px) and (max-width: 1199px) {
+        top:118px;
+        left:204px;
+        font-size: 26px;
+        line-height: 42px;
+    }
+
+    @media screen  and (min-width: 1200px) {
+        top:200px;
+        left:240px;
+
+        max-width: 696px;
+        font-size: 44px;
+        line-height: 60px;
+        letter-spacing: 0.06em;
+    
+    }
+}

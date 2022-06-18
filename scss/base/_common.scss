@@ -51,7 +51,8 @@ body {
 /* Fonts*/
 
 .caption-second {
-  margin-bottom: 50px;
+  padding-bottom: 50px;
+  margin: 0px;
 
   color: var(--title-text-color);
   font-weight: 700;
@@ -61,6 +62,14 @@ body {
   letter-spacing: 0.03em;
 }
 
-
+.caption-first {
+    color: var(--hero-caption-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: center;
+}
 
 
