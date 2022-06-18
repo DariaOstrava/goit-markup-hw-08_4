@@ -11,10 +11,11 @@
     flex-wrap: wrap;
     margin: -15px;
   }
-     @include mq(desktop) {
-      display: flex;
+  @include mq(desktop) {
+    display: flex;
      }
 }
+
 .benefits__rect {
   display: flex;
   width: 100%;
@@ -29,14 +30,24 @@
 }
 
 .benefits__item {
+margin: 0px;
   @include mq(mobile-only) {
     margin-bottom: 30px;
   }
+
   @include mq(tablet) {
     width: 50%;
     flex-basis: calc((100% - 2 * 30px) / 2);
     margin: 15px;
   }
+@include mq(desktop) {
+  margin-right: 30px;
+}
+
+  .benefits__item:last-child {
+  margin-right: 0px;
+}
+
 }
 
 .benefits__item:last-child {
@@ -79,5 +90,3 @@ color: var(--primary-text-color);
   justify-content: center;
   align-items: center;
   }
-
-
